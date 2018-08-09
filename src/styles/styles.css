@@ -1,6 +1,5 @@
 /* Imports */
-/* Not working */
-@import 'src/colors.css';
+@import './variables/colors.css';
 
 .App {
   font-family: sans-serif;
