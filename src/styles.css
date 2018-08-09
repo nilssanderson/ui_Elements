@@ -1,0 +1,8 @@
+/* Imports */
+/* Not working */
+@import 'src/colors.css';
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}

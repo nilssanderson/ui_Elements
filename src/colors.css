@@ -1,0 +1,17 @@
+/* Variables */
+
+:root {
+  /* Branding */
+  --default-bg-color: #fff;
+  --default-text-color: #333;
+  /* UI */
+  --default-rounded-corners: 3px;
+  /* Spacing */
+  --default-item-padding: 8px 16px;
+  /* Buttons */
+  --button-bg-color: coral;
+  --button-text-color: #fff;
+  --button-border-radius: var(--default-rounded-corners);
+  --button-border-style: none;
+  --button-padding: var(--default-item-padding);
+}
