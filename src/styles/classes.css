@@ -1,0 +1,14 @@
+.underline {
+  display: block;
+  margin-top: 4rem;
+  position: relative;
+}
+
+.underline:after {
+  border-bottom: 2px solid #333;
+  content: '';
+  display: block;
+  height: 1px;
+  position: relative;
+  width: 100%;
+}

@@ -1,7 +1,14 @@
 /* Imports */
 @import './variables/colors.css';
+@import './variables/spacings.css';
+@import './typography.css';
+@import './classes.css';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .App {
-  font-family: sans-serif;
-  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  max-width: 60%;
+  text-align: left;
 }

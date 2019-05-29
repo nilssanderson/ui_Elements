@@ -1,0 +1,37 @@
+/* Variables */
+
+:root {
+  /* Sizes */
+  --small: .75;
+  --medium: 1;
+  --large: 1.5;
+  --xlarge: 2.2;
+  
+  /* UI */
+  --default-rounded-corners: 3px;
+
+  /* Typography */
+  --default-font-size: 14px;
+  
+  /* Spacing */
+  --default-item-padding: 8px 16px;
+  --default-item-padding-small: 4px 8px;
+  --default-item-padding-medium: var(--default-item-padding);
+  --default-item-padding-large: 12px 24px;
+  --default-item-padding-xlarge: 16px 32px;
+
+  --default-item-margin: 4px 8px;
+  --default-item-margin-small: 2px 4px;
+  --default-item-margin-medium: var(--default-item-margin);
+  --default-item-margin-large: 6px 12px;
+  --default-item-margin-xlarge: 8px 16px;
+
+  --button-margin: 4px 8px 4px 0;
+  --button-margin-small: 2px 4px 2px 0;
+  --button-margin-medium: var(--button-margin);
+  --button-margin-large: 6px 12px 6px 0;
+  --button-margin-xlarge: 8px 16px 8px 0;
+
+  /* Transitions */
+  --default-transition: all .1s ease-in-out;
+}

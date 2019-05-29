@@ -1,17 +1,53 @@
 /* Variables */
 
 :root {
+  /* Colors */
+  --red: #B03060;
+  --orange: #FE9A76;
+  --yellow: #FFD700;
+  --olive: #32CD32;
+  --green: #016936;
+  --teal: #008080;
+  --blue: #0E6EB8;
+  --violet: #EE82EE;
+  --purple: #B413EC;
+  --pink: #FF1493;
+  --brown: #A52A2A;
+  --grey: #A0A0A0;
+  --black: #000000;
+
   /* Branding */
   --default-bg-color: #fff;
+  --default-hover-bg-color: #e6e6e6;
   --default-text-color: #333;
-  /* UI */
-  --default-rounded-corners: 3px;
-  /* Spacing */
-  --default-item-padding: 8px 16px;
+  --default-hover-text-color: #333;
+  --default-border-color: #ccc;
+  --default-border-style: solid;
+  --default-border-width: 1px;
+  
+  /* Variations */
+  --primary-bg-color: coral;
+  --primary-text-color: #fff;
+  --primary-hover-bg-color: #ff5a1d;
+  --primary-hover-text-color: #fff;
+
+  --secondary-bg-color: purple;
+  --secondary-text-color: #fff;
+  --secondary-hover-bg-color: #4d004d;
+  --secondary-hover-text-color: #fff;
+
+  --tertiary-bg-color: green;
+  --tertiary-text-color: #fff;
+  --tertiary-hover-bg-color: #004d00;
+  --tertiary-hover-text-color: #fff;
+  
   /* Buttons */
-  --button-bg-color: coral;
-  --button-text-color: #fff;
+  --button-bg-color: var(--default-bg-color);
+  --button-hover-bg-color: var(--default-hover-bg-color);
+  --button-text-color: var(--default-text-color);
+  --button-hover-text-color: var(--default-hover-text-color);
   --button-border-radius: var(--default-rounded-corners);
-  --button-border-style: none;
+  --button-border-style: var(--default-border-width) var(--default-border-style) var(--default-border-color);
+  --button-margin: var(--default-item-margin);
   --button-padding: var(--default-item-padding);
 }
